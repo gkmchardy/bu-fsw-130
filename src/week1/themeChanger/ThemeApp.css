@@ -1,0 +1,72 @@
+* {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 3vh;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+header {
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.light-theme {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.dark-footer-theme {
+  background-color: black;
+  color: whitesmoke;
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  line-height: 3px;
+}
+
+.light-footer-theme {
+  background-color: whitesmoke;
+  color: black;
+  position: fixed;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  line-height: 3px;
+}
+.dark-p-theme {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.light-p-theme {
+  background-color: whitesmoke;
+  color: black;
+}

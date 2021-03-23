@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+p {
+  color: black;
+  font-size: large;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 3vh;
+  background: skyblue;
+  color: black;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  list-style: none;
+}
+button {
+  color: white;
+  border-style: none;
+  background-color: gray;
+}
+Footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  background-color: gray;
+  padding: 10px;
+}
