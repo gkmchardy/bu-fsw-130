@@ -2,14 +2,6 @@ import React, { Component } from 'react'
 import { ContextConsumer } from './UglyThingsContext.js'
 
 class Things extends Component {
-  state = {
-    listUpdate: [],
-    uglyTitle: '',
-    uglyImage: '',
-    uglydescription: '',
-    comments: [],
-    comment: '',
-  }
   handleChange = (e) => {
     const { name, value } = e.target
     this.setState({
@@ -18,22 +10,6 @@ class Things extends Component {
   }
 
   uglyUpdate = (e, context) => {
-    e.preventDefault()
-    this.setState({
-      listUpdate: [
-        ...context.uglyLists,
-        {
-          uglyTitle: this.state.uglyTitle,
-          uglydescription: this.state.uglydescription,
-          uglyImage: this.state.uglyImage,
-          comments: this.state.comments,
-        },
-      ],
-      uglyTitle: '',
-      uglydescription: '',
-      uglyImage: '',
-      comments: [],
-    })
     context.updateItems([
       ...context.uglyLists,
       {

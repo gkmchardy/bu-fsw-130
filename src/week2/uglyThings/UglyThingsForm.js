@@ -35,6 +35,7 @@ class Form extends Component {
       uglyImage: '',
       comments: [],
     })
+    
     context.updateItems([
       ...context.uglyLists,
       {

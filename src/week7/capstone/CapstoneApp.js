@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
+import { Provider } from 'react-redux'
+
 
 function CapstoneApp() {
     return (
-        <div>
-            
-        </div>
-    );
+        <div></div>
+    )
 }
 
-export default CapstoneApp;
+export default CapstoneApp

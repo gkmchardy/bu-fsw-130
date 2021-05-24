@@ -39,9 +39,7 @@ class ContextProvider extends Component {
     console.log("deleting", itemIndex)
     this.setState((prevState) => ({
       uglyLists: prevState.uglyLists.map((thingItem, index) => {
-        console.log("delete", e.target.id)
         if (index === itemIndex) {
-          console.log(index, itemIndex)
          thingItem.comments = thingItem.comments.filter((comment, i) => {
             console.log(i, Number(e.target.id))
             return i !== Number(e.target.id)
